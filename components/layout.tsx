@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Layout({ children }) {
   const [activeTab, setActiveTab] = useState();
 
-  const handleChangeTab = (i) => {
+  const handleChangeTab = (i: any) => {
     setActiveTab(i);
   };
 
