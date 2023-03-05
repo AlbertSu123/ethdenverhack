@@ -35,6 +35,9 @@ export default function Layout({ children }) {
           >
             Your Contracts
           </Navbar.Link>
+          <Navbar.Link href="https://0x-swap-flame.vercel.app/">
+            Swap Tokens via 0x
+          </Navbar.Link>
         </Navbar.Content>
         <Navbar.Content>
           <Navbar.Item>
